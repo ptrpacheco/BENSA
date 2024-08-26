@@ -1,0 +1,61 @@
+section p {
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    column-gap: 20px;
+    padding: 0 20px 40px;
+}
+
+.team-image {
+    margin-top: 28px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 108%;
+    transition: all .2s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.team-image::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(22, 5, 7, 0.75);
+    z-index: 1;
+    transition: inherit;
+}
+.team-image:hover h4, .team-image:hover p {
+    opacity: .6;
+}
+
+.team-image:hover::before {
+    background-color: unset;
+}
+
+.team-image h4 {
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.team-image p {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+}

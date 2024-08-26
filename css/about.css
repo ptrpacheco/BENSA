@@ -1,0 +1,16 @@
+.trailer {
+    float: left;
+    width: 40%;
+    margin: 0 28px 14px 0;
+}
+
+section p {
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .trailer {
+        width: 100%;
+    }
+}
