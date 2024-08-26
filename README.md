@@ -1,7 +1,11 @@
 <h1 align=center>BEN$A</h1>
 <p align=center>Projeto realizado em 2023, como método de aprendizagem pessoal.</p>
-<p align=center><a href="https://www.figma.com/design/pijsRM2M3vdiDAzaUzse1z/BEN%24A%2FSlyte?m=auto&t=dkh7qoVD7hmh0JoV-6">Prototipação</a>&nbsp&nbsp
-|&nbsp&nbsp <a href="https://github.com/ptrpacheco">Mais Projetos</a>
+<p align=center><a href="#️-sobre-o-projeto">Sobre</a>&nbsp&nbsp
+|&nbsp&nbsp<a href="#-desenvolvimento">Desenvolvimento</a>&nbsp&nbsp|&nbsp&nbsp<a href="#-tecnologias">Tecnologias</a>&nbsp&nbsp|&nbsp&nbsp<a href="#-licença">Licença</a>
+
+<p align=center>
+    <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&lebelColor=000000">
+</p>
 
 <p align=center>
     <img alt="Projeto iniciante de website a Tropa da Bensa" src=".github/preview.png">
@@ -21,5 +25,9 @@ Esse projeto foi realizado com as seguintes tecnologias:
     <li>Figma</li>
 </ul>
 
-##
+## 🔑 Licença
+Este projeto está sob a licença MIT.
+
+___
+
 <p align=center>Desenvolvido por Pietro Pacheco 👤<br>Minhas redes sociais: <a href="https://linktr.ee/pietropacheco">Linktree</a></p>
